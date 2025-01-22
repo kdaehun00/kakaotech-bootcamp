@@ -1,0 +1,21 @@
+public class Inheritance {
+    public static void main(String[] args) {
+        // 객체 생성
+        Dog dog = new Dog("choco", 3);
+        Cat cat = new Cat("coco", 2);
+        Human human = new Human("daniel", 26);
+
+        // Animal 클래스의 메서드 호출
+        /*dog.makeSound();
+        dog.eat();
+        dog.fetch();*/
+
+        /*cat.makeSound();
+        cat.eat();
+        cat.scratch();*/
+
+        /*human.makeSound();
+        human.eat();
+        human.work();*/
+    }
+}
